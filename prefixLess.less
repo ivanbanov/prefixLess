@@ -1,0 +1,6 @@
+// PREFIX
+.prefix(@prop, @val, @prefixes) {
+    @v: ~'@{val}';
+    @pfx: ~'@{prefixes}';
+    lessfix: ~`(function(){var r='@{prop}',p='@{pfx}'.split(' '),i=0;for(;i<=p.length;i++)r+=';\n  '+(p[i]?'-'+p[i]+'-':'')+'@{prop}: @{v}';return r}())`;
+}
