@@ -12,6 +12,7 @@ You can see the mixin running on <a href="http://codepen.io/ivanbanov/pen/tHlfh"
 Any value that need whitespace is necessary use as string to prevent errors.
 
 __NOTE__: Less dont accept string as property then is need use a additional trick with a fake property
+<br />
 lessfix: property;
 
 For more information see this issue <a href="http://codepen.io/ivanbanov/pen/tHlfh" target="_blank">#698</a> in official github of LESS.
